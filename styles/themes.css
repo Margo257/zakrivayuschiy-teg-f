@@ -4,3 +4,40 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+
+@media (prefers-color-scheme: light) {
+    .theme-light {
+      --main-font: 'Inter-Variable';
+      --font-wight-normal: 400;
+      --font-wight-bold: 700;
+      --title-font: 'PressStart2P';
+      --text-color: #000;
+      --border-color:#000;
+      --hover-color: rgb(0, 0, 0, .6);
+      --shadow:#fff;
+      --bg-card: #fff;
+      --bg-bottom: transparent;
+      --contour:#000;
+      --bg-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+      linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    } 
+}
+
+@media (prefers-color-scheme: dark) {
+    .theme-dark {
+      --font-wight-normal: 465;
+      --font-wight-bold: 785;
+      --text-color: #00CC14;
+      --border-color:#00CC14;
+      --hover-color: rgb(0, 204, 20, .6);
+      --bg-card: #000;
+      --shadow:#000;
+      --bg-bottom: transparent;
+      --contour:#00CC14;;
+      --bg-image:repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+      linear-gradient(#007f0c 0.01%, #004306);
+    }
+}
