@@ -23,11 +23,11 @@
 
 .like-icon:hover .main-body {
   fill: var(--contour);
-  transition: fill 0.3s linear 0.05s ;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon .main-body {
-  fill:transparent;
+  fill: transparent;
   transition: fill 0.3s linear;
 }
 
