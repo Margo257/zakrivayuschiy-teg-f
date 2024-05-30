@@ -4,40 +4,67 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+  --font-wight-normal: 400;
+  --font-wight-bold: 700;
+  --text-color: #000;
+  --button-text:#fff;
+  --border-color:#000;
+  --shadow:#fff;
+  --bg-card: #fff;
+  --contour:#000;
+  --bg-image:
+  repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+  repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+  linear-gradient(180deg, #e7e7e7 0%, #e7e7e7  0.01%, #1a1a1a 100%);
+} 
 
-
-@media (prefers-color-scheme: light) {
-    .theme-light {
-      --main-font: 'Inter-Variable';
+/*@media (prefers-color-scheme: light) {
+    :root {
       --font-wight-normal: 400;
       --font-wight-bold: 700;
-      --title-font: 'PressStart2P';
       --text-color: #000;
+      --button-text:#fff;
       --border-color:#000;
-      --hover-color: rgb(0, 0, 0, .6);
       --shadow:#fff;
       --bg-card: #fff;
-      --bg-bottom: transparent;
       --contour:#000;
-      --bg-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
-      repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
-      linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+      --bg-image: 
+      repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+      linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
     } 
+}*/
+
+:root.theme-dark {
+  --font-wight-normal: 465;
+  --font-wight-bold: 785;
+  --text-color: #00CC14;
+  --button-text:#00CC14;
+  --border-color:#00CC14;
+  --bg-card: #000;
+  --shadow:#000;
+  --contour:#00CC14;;
+  --bg-image:
+  repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+  repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
+  linear-gradient(180deg, #007f0c, #004306);
 }
 
 @media (prefers-color-scheme: dark) {
-    .theme-dark {
-      --font-wight-normal: 465;
-      --font-wight-bold: 785;
-      --text-color: #00CC14;
-      --border-color:#00CC14;
-      --hover-color: rgb(0, 204, 20, .6);
-      --bg-card: #000;
-      --shadow:#000;
-      --bg-bottom: transparent;
-      --contour:#00CC14;;
-      --bg-image:repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
-      repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
-      linear-gradient(#007f0c 0.01%, #004306);
-    }
+  :root {
+    --font-wight-normal: 465;
+    --font-wight-bold: 785;
+    --text-color: #00CC14;
+    --button-text:#00CC14;
+    --border-color:#00CC14;
+    --hover-color: rgb(0, 204, 20, .6);
+    --bg-card: #000;
+    --shadow:#000;
+    --contour:#00CC14;;
+    --bg-image:
+    repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
+    linear-gradient(180deg, #007f0c, #004306);
+  } 
 }
