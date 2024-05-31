@@ -44,7 +44,7 @@
   --border-color:#00CC14;
   --bg-card: #000;
   --shadow:#000;
-  --contour:#00CC14;;
+  --contour:#00CC14;
   --bg-image:
   repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
   repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
@@ -61,7 +61,7 @@
     --hover-color: rgb(0, 204, 20, .6);
     --bg-card: #000;
     --shadow:#000;
-    --contour:#00CC14;;
+    --contour:#00CC14;
     --bg-image:
     repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px),
     repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px),
