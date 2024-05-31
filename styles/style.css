@@ -156,6 +156,7 @@
 
 .card__image-label {
   position: absolute;
+  z-index: 1;
   top: 25px;
   right: clamp(13px, 0.3791rem + 1.849vw, 25px);
   font-family: var(--title-font, Papyrus, fantasy);
@@ -396,10 +397,14 @@
   }
 
   .header__title {
-    padding-block-start: 5%;
+    padding-block-start: 6%;
   }
   .theme-menu {
-    padding-block: 6.3%;
+    padding-block: 6%;
+  }
+
+  .cards{
+    gap:55px;
   }
 
   .card__title {
@@ -409,7 +414,7 @@
 
   .card__text {
     padding-inline: 3.5%;
-    padding-block: 3.5%;
+    padding-block: 3.4%;
     line-height: 1.15;
     gap: 29px;
   }
@@ -421,13 +426,15 @@
   }
 
   .button_save {
-    margin-block-start: 11.5%;
+    margin-block-start: 52px;
+    margin-block-end: 100px;
     margin-inline: 8.5%;
-    padding-block-start: 11px;
+    padding-block: px;
     inline-size: 310px;
-    block-size: 85px;
+    block-size: 84px;
     flex-direction: column;
-    gap: 0px;
+    line-height: 1.5em;
+    gap: 2px;
   }
 
   .button_save-icon {
