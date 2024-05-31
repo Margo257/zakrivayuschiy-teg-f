@@ -1,1 +1,1 @@
-https://margo257.github.io/zakrivayuschiy-teg-f/
+git@github.com:Margo257/zakrivayuschiy-teg-f.git
